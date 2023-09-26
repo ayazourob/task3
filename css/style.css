@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--myfont);
+}
+:root{
+    --dark-color:#1a1a1a;
+    --bs-warning:#ffe500;
+    --myfont:'Raleway', sans-serif;
+    --bs-progress-height: 0.5rem;
+}
+.container-fluid{
+    background-color: var(--dark-color);
+}
+nav img{
+    width: 4%;
+    height: 0%;
+}
+nav i {
+    font-size: 170%;
+}
+.h-title{
+    padding: 10rem 0;
+    color: white;
+    letter-spacing: 0.3rem;
+
+}
+.h-title h4{
+    letter-spacing: 1rem;
+}
+.h-title p{
+    padding: 37px 0;
+}
+.info img{
+    width: 166px;
+    padding-top: 93px;
+    padding-bottom: 5%;
+}
+.info{
+    font-size: small;
+    line-height: 2;
+}
+.services{
+    background-color: #f4f4f4;
+    height: 1000px;
+}
+.services-t{
+    text-align: center;
+    margin-top: 10%;
+    padding-top: 5%;
+    letter-spacing: 0.1rem;
+    font-size: small;
+
+}
+.services-t h4{
+    letter-spacing: 1rem;
+    padding-bottom: 41px;
+    padding-top: 36px;
+}
+.card img{
+    width: 25%;
+    height: 20%;
+}
+.cardd{
+    text-align: center;
+    width: 25%;
+}
+.mobile{
+    width: 15%;
+}
+.main-c{
+    height: 80% !important;
+}
+.card-title{
+    letter-spacing: 0.3em;
+}
+.progress{
+    height: 0.5em !important;
+}
+.progress-bar{
+    background-color: var(--bs-warning) !important
+}
+span{
+    padding-left: 150px;
+}
+.grafic{
+    border-top: 1px var(--dark-color)solid;
+    border-bottom: 1px var(--dark-color)solid;
+}
+.divs{
+    margin-top: 90px !important;
+    background-color: #f4f4f4;
+}
+.divs div{
+    padding: 2% 0; 
+}
+.DOE h6{
+    border-top:20px solid var(--bs-warning);
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.DOE p{
+    border-bottom:20px solid var(--bs-warning);
+    padding-bottom: 10px;
+}
+.btn{
+    justify-content: center;
+}
+.last{
+    padding: 10%;
+    position: relative;
+    background-color: var(--bs-warning);
+}
